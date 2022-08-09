@@ -13,13 +13,13 @@
 ```c#
 using System;
 
-namespace HelloWorld
+bad
 {
-  class Program
+  at
   {
-    static void Main(string[] args)
+    programming
     {
-      Console.WriteLine("Hello World!");    
+      siu  
     }
   }
 }```
