@@ -11,7 +11,7 @@
 **SIUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU**
 
 ```c#
-using System;
+real statement;
 
 bad
 {
