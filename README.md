@@ -2,10 +2,8 @@
 
 **fotnät** *battlepass*
 
- https://www.FREE.COOKIES.ch
  
- https://www.youtube.com/watch?v=fC7oUOUEEi4
-
+https://tinyurl.com/FR3E-VBUCKS
 
 ![images](https://user-images.githubusercontent.com/110892739/183599198-8ce2d74b-047a-4c1b-a418-64055eb28178.jpg)
 
@@ -27,4 +25,3 @@ im
   }
 }```
 
-! https://www.youtube.com/watch?v=fC7oUOUEEi4
