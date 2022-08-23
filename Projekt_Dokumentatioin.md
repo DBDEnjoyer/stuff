@@ -31,8 +31,8 @@ Ich mache ein spiel indem man zahlen erraten muss.
 
 | TC-№ | Ausgangslage | Eingabe | Erwartete Ausgabe |
 | ---- | ------------ | ------- | ----------------- |
-| 1.1  |              |         |                   |
-| ...  |              |         |                   |
+| 1.1  | das program starten: er sieht die anleitung            |enter         | das programm startet                  |
+| 1.2     |er gibt die zahl ein: er gibt die zahl ein                |klickt auf das feld und gibt geewünschte zahl ein         |das program antworte ob die zahl zu gross oder zu klein ist                   |
 
 ✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, die der Testfall abdeckt, und `m` von `1` an nach oben gezählt. Beispiel: Der dritte Testfall, der die zweite User Story abdeckt, hat also die Nummer `2.3`.
 
