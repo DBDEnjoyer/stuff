@@ -45,7 +45,7 @@ Ich mache ein spiel indem man zahlen erraten muss.
 
 | AP-№ | Frist | Zuständig | Beschreibung | geplante Zeit |
 | ---- | ----- | --------- | ------------ | ------------- |
-| 1.A  |       |           |              |               |
+| 1.A  |  die nötigsten sachen programmieren     |ich           |              |150               |
 | ...  |       |           |              |               |
 
 Total: 
