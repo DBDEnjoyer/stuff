@@ -5,9 +5,13 @@ Grigioni
 
 | Datum | Version | Zusammenfassung                                              |
 | ----- | ------- | ------------------------------------------------------------ |
-|       | 0.0.1   | User stories |
-|       | ...     |                                                              |
-|       | 1.0.0   |                                                              |
+|       | 0.0.1   | User stories                                                 |
+|       | 0.0.2   | testfälle                                                    |
+|       | 0.1.0   | random nuber generator                                       |
+|       | 0.1.1   | abfragen der zahlen                                          |
+|       | 0.1.2   | antworten ob die Zahl zu gross oder zu klein ist.            |
+|       | 0.1.3   | schauen ob die Zahl zwischen 1 und 100 ist                   |
+|       | 1.0.0   | die Antworten auf die zu grosse oder zu kleine Zahl sind farbig|
 
 
 
@@ -21,11 +25,11 @@ Ich mache ein spiel indem man zahlen erraten muss.
 
 | US-№ | Verbindlichkeit | Typ  | Beschreibung                       |
 | ---- | --------------- | ---- | ---------------------------------- |
-| 1    |  Muss           |      |Das spiel ist klar formuliert       |
-| 2    |  Muss           |      |Wenn der spieler etwas eingibt das keine zahl zwischen 1 und 100 ist kommt eine fehlmeldung|
-| 3    |  Muss           |      |Es kommt am anfang vom Spiel eine Einleitung                                    |
+| 1    |  Muss           |      |Das spiel ist klar formuliert in der anleitung|
+| 2    |  Muss           |      |die basis des spiels funktioniert (Zahlen werden generiert und der user kann sie erraten)     |
+| 3    |  Muss           |      |Wenn der spieler etwas eingibt das keine zahl zwischen 1 und 100 ist kommt eine fehlmeldung|
 
-✍️ Jede User Story hat eine ganzzahlige Nummer (1, 2, 3 etc.), eine Verbindlichkeit (Muss oder Kann?), und einen Typ (Funktional, Qualität, Rand). Die User Story selber hat folgende Form: *Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️*.
+
 
 ### 1.3 Testfälle
 
@@ -33,21 +37,18 @@ Ich mache ein spiel indem man zahlen erraten muss.
 | ---- | ------------ | ------- | ----------------- |
 | 1.1  | das program starten: er sieht die anleitung            |enter         | das programm startet                  |
 | 1.2     |er gibt die zahl ein: er gibt die zahl ein                |klickt auf das feld und gibt geewünschte zahl ein         |das program antworte ob die zahl zu gross oder zu klein ist                   |
-| 1.3  | das programm beenden/neustarten:ein fenster popt auf und dann kann er es beenden          |klicken        | das programm startet neu oder schliest sich                |
+| 1.3  | das programm beenden/neustarten:ein fenster popt auf und dann kann er es beenden          |klicken        | das programm startet neu oder schliest sich  |
 
-✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, die der Testfall abdeckt, und `m` von `1` an nach oben gezählt. Beispiel: Der dritte Testfall, der die zweite User Story abdeckt, hat also die Nummer `2.3`.
-
-### 1.4 Diagramme
-
-✍️ Hier können Sie PAPs, Use Case- und Gantt-Diagramme oder Ähnliches einfügen.
 
 ## 2 Planen
 
 | AP-№ | Frist | Zuständig | Beschreibung | geplante Zeit |
 | ---- | ----- | --------- | ------------ | ------------- |
-| 1.A  |  die nötigsten sachen programmieren     |ich           |              |150               |
-| ...  |       |           |              |               |
-
+| 1.A  | 30.08.22      |ich           |mit console.writeline eine einleitung ersschaffen           |5               |
+| 2.A  | 30.08.22      |ich           |random number generator hinzufügen             |30               |
+| 2.B  | 30.08.22      |ich           |abfragen der zahl              |30               |
+| 2.C  | 30.08.22      |ich           |antwotren  ob die zahl zu gross oder zu klein ist              |100               |
+| 3.A  | 06.09.22      |ich           |mit try und throw arbeiten und nach jeder antwort nachschauen ob die zahl zwischen 1 und 100 ist            |30               |
 Total: 
 
 ✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, auf die sich das Arbeitspaket bezieht, und `m` von `A` an nach oben buchstabiert. Beispiel: Das dritte Arbeitspaket, das die zweite User Story betrifft, hat also die Nummer `2.C`.
@@ -82,10 +83,9 @@ Total:
 
 | BR-№ | Ausgangslage | Eingabe | Erwartete Ausgabe | Tatsächliche Ausgabe |
 | ---- | ------------ | ------- | ----------------- | -------------------- |
-| I    |              |         |                   |                      |
-| ...  |              |         |                   |                      |
+| I    |   Das Program fragt nach einer Zahl ab          |   Statt eine Zahl wurde etwas anderes eingegeben      |    Es soll scih zeigen das es flasch ist               |       Das Program beendet sich               |
 
-✍️ Verwenden Sie römische Ziffern für Ihre Bug Reports, also I, II, III, IV etc.
+
 
 ## 6 Auswerten
 
