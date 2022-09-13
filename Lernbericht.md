@@ -1,4 +1,4 @@
-# Lernbericht
+# Lernbericht Vorlage
 Leonardo Grigioni
 ## Einleitung:
 Ich habe ein Desktop PC bekommen und habe ihn eingerichtet
