@@ -10,10 +10,10 @@ Ich habe gelernt wie man try throw benutzt, wie man variabeln convertiert, wie m
 
 ## Beschreibung
 Ich habe als erstes dem Spieler eine Anleitung geschrieben mit console.writline.
-Danach habe ich ein Randomnumber Generator zu programieren, da ich krank war und den Input dazu nie bekommen habe habe ich im Internet nachgeschaut und habe Es mir schnell selber beigebracht.
-Ich habe sofort danach angfangen alles mit den Variabeln fest zu halten. Ich habe mit einem if Loop das Programm auf die Schätzungen des Spielers reagieren lassen.
+Danach habe ich angefangen ein Randomnumber Generator zu programieren. Da ich krank war und den Input dazu nie bekommen habe, habe ich im Internet nachgeschaut und habe es mir schnell selber beigebracht.
+Ich habe sofort danach angefangen alles mit den Variabeln fest zu halten. Ich habe mit einem if Loop das Programm auf die Schätzungen des Spielers reagieren lassen.
 Als ich das das ertse Mal probiert habe ging es einfach nicht, ich habe dann das ganze Programm neu geschrieben und aus irgendeinem Grund ging es dann.
-Als ich mit den basis sachen fertig war, habe ich damit angefangen mit den Fehlermeldungen, ich habe mit try und throw gearbeitet.
+Als ich mit den basis Sachen fertig war, habe ich mit den Fehlermeldungen angefangen. Ich habe mit try und throw gearbeitet.
 
 [Wo Ich den verpassten Stoff nachgeholt habe](https://www.w3schools.com/cs/cs_conditions.php)
 
