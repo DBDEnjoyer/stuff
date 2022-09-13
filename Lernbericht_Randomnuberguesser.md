@@ -6,29 +6,47 @@ Ich habe ein Spiel programmiert indem man Zahlen erraten muss.
 
 ## Was habe ich gelernt?
 
-Ich habe gelernt wie man try throw benutzt und wie man variabeln convertiert.
+Ich habe gelernt wie man try throw benutzt, wie man variabeln convertiert, wie man if else/else if schleifen benutzt, wie man die farbe des Textes verändert und was  Environment.Exit(0) macht.
 
 ## Beschreibung
-Ich habe als erstes dem spieler eine Anleitung geschrieben min console.writline.
-Danach habe ich ein Randomnumber generator zu programieren, da ich krank war und den input dazu nie bekommen habe habe ich im Internet nachgeschaut und habe es mir schnell selber beigebracht.
-Ich habe sofort danach angfangen alles mit den Variabeln fest zu halten. Ich habe mit einem if loop das Programm auf die Schätzungen des Spielers reagieren lassen.
+Ich habe als erstes dem Spieler eine Anleitung geschrieben mit console.writline.
+Danach habe ich ein Randomnumber Generator zu programieren, da ich krank war und den Input dazu nie bekommen habe habe ich im Internet nachgeschaut und habe Es mir schnell selber beigebracht.
+Ich habe sofort danach angfangen alles mit den Variabeln fest zu halten. Ich habe mit einem if Loop das Programm auf die Schätzungen des Spielers reagieren lassen.
 Als ich das das ertse Mal probiert habe ging es einfach nicht, ich habe dann das ganze Programm neu geschrieben und aus irgendeinem Grund ging es dann.
-Als ich mit den basis sachen fertig war, habe ich damit angefangen mit den fehlermeldungen, ich habe mit try und throw gearbeitet.
+Als ich mit den basis sachen fertig war, habe ich damit angefangen mit den Fehlermeldungen, ich habe mit try und throw gearbeitet.
+
+[Wo Ich den verpassten Stoff nachgeholt habe](https://www.w3schools.com/cs/cs_conditions.php)
+
+Die Zeilen die ich am Anfang noch mal schreiben musste:
+```c#
+                    if (Guess < RNumber)
+                    {
+                        Console.ForegroundColor = ConsoleColor.Red;
+                        Console.WriteLine("Deine Nummer ist zu klein. Versuchs nochmal:");
 
 
 
-* Ein deutliches, aussagekräftiges Bild oder eine kommentierte Bildschirm-Aufnahme
-* Ein gut dokumentierter Code-Fetzen
-* Ein Link zu einem *selbst aufgenommenen* youtube-Video oder `.gif`.
+                    }
+                    else if (Guess > RNumber)
+                    {
+                        Console.ForegroundColor = ConsoleColor.Red;
+                        Console.WriteLine("Deine Nummer ist zu gross. Versuchs nochmal:");
+                    }
+```
+
 
 ## Verifikation
 
-✍️ Erklären Sie kurz und bündig, inwiefern die von Ihnen verwendeten Medien zeigen, was Sie gelernt haben.
+Text: beschreibt Schritt für Schtritt was ich gemacht habe.
+
+Code: zeigt was Ich am Anfang geschrieben habe das nicht funktionierte.
+
+Link: zeigt wo ich mein Wissen nachgeholt habe.
 
 # Reflektion zum Arbeitsprozess
-
-👍 Überlegen Sie sich jeweils etwas, was gut an Ihrer Arbeit lief; 
-
-👎 und etwas, was nicht gut lief.
-
-**VBV**: ✍️ Formulieren Sie davon ausgehend einen *handelbaren* Verbesserungsvorschlag.
+## gut gemacht
+Ich habe am Anfang wenige Pausen gemacht und habe viel am Stück gearbeitet.
+## schlecht gemacht:
+Da ich am Anfang so viel gemacht habe hatte ich gegen Schluss viel Zeit und habe sie nicht gut umgesetzt.
+## VBV:
+Die Arbeit besser einteilen damit ich konstant in einem Handelbaren Tempo Arbeite.
